@@ -1,28 +1,60 @@
 {
-  "background_color": "#ffffff",
-  "description": "Suraksha - Women Safety Platform. Instant SOS, live location sharing, AI safety guidance.",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "Surax",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "surx7",
+  "name": "Suraksha - Women's Safety App",
+  "short_name": "Suraksha",
+  "description": "Emergency SOS, Live Location Sharing, Safety Alerts, Emergency Contacts and AI Safety Assistant.",
   "start_url": "/",
-  "theme_color": "#0a1628",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0f",
+  "theme_color": "#dc2626",
+  "lang": "en",
+  "categories": [
+    "safety",
+    "security",
+    "utilities",
+    "social"
+  ],
   "icons": [
     {
-      "src": "data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🛡️&lt;/text&gt;&lt;/svg&gt;",
-      "type": "image/svg+xml",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  ],
-  "id": "surx7",
-  "lang": "en"
+  ]
 }
