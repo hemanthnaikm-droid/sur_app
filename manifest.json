@@ -1,28 +1,27 @@
 {
   "name": "Suraksha - Women's Safety App",
   "short_name": "Suraksha",
-  "description": "Emergency SOS, Live Location Sharing, Emergency Contacts, AI Safety Assistant and Safety Alerts.",
+  "description": "Women's Safety App with SOS, Live Location Sharing, Emergency Contacts and AI Assistance.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0a0f",
   "theme_color": "#dc2626",
-  "lang": "en",
 
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/logo.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/maskable-icon.png",
+      "src": "/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
@@ -31,13 +30,13 @@
 
   "screenshots": [
     {
-      "src": "/screenshots/home.png",
+      "src": "/screenshots1.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
-      "src": "/screenshots/dashboard.png",
+      "src": "/screenshots2.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow"
@@ -48,19 +47,6 @@
     "safety",
     "security",
     "utilities"
-  ],
-
-  "shortcuts": [
-    {
-      "name": "Emergency SOS",
-      "short_name": "SOS",
-      "url": "/#sos"
-    },
-    {
-      "name": "Live Location",
-      "short_name": "Location",
-      "url": "/#location"
-    }
   ],
 
   "prefer_related_applications": false
