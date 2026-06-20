@@ -1,7 +1,7 @@
 {
   "name": "Suraksha - Women's Safety App",
   "short_name": "Suraksha",
-  "description": "Emergency SOS, Live Location Sharing, Safety Alerts, Emergency Contacts and AI Safety Assistant.",
+  "description": "Emergency SOS, Live Location Sharing, Emergency Contacts, AI Safety Assistant and Safety Alerts.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -9,52 +9,59 @@
   "background_color": "#0a0a0f",
   "theme_color": "#dc2626",
   "lang": "en",
-  "categories": [
-    "safety",
-    "security",
-    "utilities",
-    "social"
-  ],
+
   "icons": [
     {
-      "src": "src/icon.png",
-      "sizes": "72x72",
-      "type": "image/png"
-    },
-    {
-      "src": "src/adaptive-icon.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "splash.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "src/shield.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "src/shield(1).png",
-      "sizes": "152x152",
-      "type": "image/png"
-    },
-    {
-      "src": "src/protection.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "src/detetive.png",
-      "sizes": "384x384",
+      "src": "/icon-512.png",
+      "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "src/women-rights.png",
+      "src": "/maskable-icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable any"
     }
-  ]
+  ],
+
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/dashboard.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+
+  "categories": [
+    "safety",
+    "security",
+    "utilities"
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Emergency SOS",
+      "short_name": "SOS",
+      "url": "/#sos"
+    },
+    {
+      "name": "Live Location",
+      "short_name": "Location",
+      "url": "/#location"
+    }
+  ],
+
+  "prefer_related_applications": false
 }
