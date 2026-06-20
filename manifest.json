@@ -1,0 +1,28 @@
+{
+  "background_color": "#ffffff",
+  "description": "Suraksha - Women Safety Platform. Instant SOS, live location sharing, AI safety guidance.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Surax",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "surx7",
+  "start_url": "/",
+  "theme_color": "#0a1628",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🛡️&lt;/text&gt;&lt;/svg&gt;",
+      "type": "image/svg+xml",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "id": "surx7",
+  "lang": "en"
+}
